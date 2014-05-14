@@ -1,5 +1,5 @@
 package Task::CPANAuthors;
-$Task::CPANAuthors::VERSION = '1.000';
+$Task::CPANAuthors::VERSION = '1.001';
 use strict;
 use warnings;
 
@@ -36,8 +36,6 @@ L<Acme::CPANAuthors::Acme::CPANAuthors::Authors> - We are CPAN authors who have 
 L<Acme::CPANAuthors::AnyEvent> - We are CPAN Authors of AnyEvent!
 
 L<Acme::CPANAuthors::Booking> - Booking.com CPAN authors
-
-L<Acme::CPANAuthors::British::Companies> - We are British Companies with PAUSE IDs
 
 L<Acme::CPANAuthors::CPANTS::FiveOrMore> - CPAN Authors with five or more dists
 
