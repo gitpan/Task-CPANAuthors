@@ -2,7 +2,9 @@
 abstract: 'All Acme::CPANAuthors modules at once'
 author:
   - 'Philippe Bruhat (BooK) <book@cpan.org>'
-build_requires: {}
+build_requires:
+  File::Spec: '0'
+  Test::More: '0'
 configure_requires:
   ExtUtils::MakeMaker: '6.30'
 dynamic_config: 0
@@ -16,13 +18,16 @@ requires:
   Acme::CPANAuthors: '0'
   Acme::CPANAuthors::Acme::CPANAuthors::Authors: '0'
   Acme::CPANAuthors::AnyEvent: '0'
+  Acme::CPANAuthors::BackPAN::OneHundred: '0'
   Acme::CPANAuthors::Booking: '0'
+  Acme::CPANAuthors::CPAN::OneHundred: '0'
   Acme::CPANAuthors::CPANTS::FiveOrMore: '0'
   Acme::CPANAuthors::CodeRepos: '0'
   Acme::CPANAuthors::DualLife: '0'
   Acme::CPANAuthors::GeekHouse: '0'
   Acme::CPANAuthors::GitHub: '0'
   Acme::CPANAuthors::InMemoriam: '0'
+  Acme::CPANAuthors::MetaSyntactic: '0'
   Acme::CPANAuthors::Misanthrope: '0'
   Acme::CPANAuthors::Nonhuman: '0'
   Acme::CPANAuthors::Not: '0'
@@ -36,4 +41,4 @@ requires:
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Task-CPANAuthors
   repository: http://github.com/book/Task-CPANAuthors.git
-version: '1.001'
+version: '1.002'

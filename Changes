@@ -1,5 +1,12 @@
 Revision history for Task-CPANAuthors
 
+1.002 Tue Jun 3 2014
+        - add Acme::CPANAuthors::MetaSyntactic
+        - add Acme::CPANAuthors::BackPAN::OneHundred
+        - add Acme::CPANAuthors::CPAN::OneHundred
+        - created a release test to check the list of Acme::CPANAuthors
+          modules against CPAN
+
 1.001 Thu May 15 2014
         - removed Acme::CPANAuthors::British::Companies from the list of
           requirements as it's packaged with Acme::CPANAuthors::British

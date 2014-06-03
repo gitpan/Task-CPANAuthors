@@ -1,5 +1,5 @@
 package Task::CPANAuthors;
-$Task::CPANAuthors::VERSION = '1.001';
+$Task::CPANAuthors::VERSION = '1.002';
 use strict;
 use warnings;
 
@@ -35,7 +35,11 @@ L<Acme::CPANAuthors::Acme::CPANAuthors::Authors> - We are CPAN authors who have 
 
 L<Acme::CPANAuthors::AnyEvent> - We are CPAN Authors of AnyEvent!
 
+L<Acme::CPANAuthors::BackPAN::OneHundred> - The CPAN Authors who have 100+ distributions on BackPAN
+
 L<Acme::CPANAuthors::Booking> - Booking.com CPAN authors
+
+L<Acme::CPANAuthors::CPAN::OneHundred> - The CPAN Authors who have 100+ distributions on CPAN
 
 L<Acme::CPANAuthors::CPANTS::FiveOrMore> - CPAN Authors with five or more dists
 
@@ -48,6 +52,8 @@ L<Acme::CPANAuthors::GeekHouse> - We're CPAN Authors in The Geek House
 L<Acme::CPANAuthors::GitHub> - CPAN Authors with GitHub repositories
 
 L<Acme::CPANAuthors::InMemoriam> - Remembering our fallen heroes
+
+L<Acme::CPANAuthors::MetaSyntactic> - MetaSyntactic CPAN authors
 
 L<Acme::CPANAuthors::Misanthrope> - The CPAN authors who see into your soul with perfect clarity
 
