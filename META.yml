@@ -3,6 +3,7 @@ abstract: 'All Acme::CPANAuthors modules at once'
 author:
   - 'Philippe Bruhat (BooK) <book@cpan.org>'
 build_requires:
+  File::Path: '0'
   File::Spec: '0'
   Test::More: '0'
 configure_requires:
@@ -23,6 +24,7 @@ requires:
   Acme::CPANAuthors::CPAN::OneHundred: '0'
   Acme::CPANAuthors::CPANTS::FiveOrMore: '0'
   Acme::CPANAuthors::CodeRepos: '0'
+  Acme::CPANAuthors::DebianDev: '0'
   Acme::CPANAuthors::DualLife: '0'
   Acme::CPANAuthors::GeekHouse: '0'
   Acme::CPANAuthors::GitHub: '0'
@@ -41,4 +43,4 @@ requires:
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Task-CPANAuthors
   repository: http://github.com/book/Task-CPANAuthors.git
-version: '1.002'
+version: '1.003'

@@ -29,6 +29,7 @@ my %WriteMakefileArgs = (
     "Acme::CPANAuthors::CPAN::OneHundred" => 0,
     "Acme::CPANAuthors::CPANTS::FiveOrMore" => 0,
     "Acme::CPANAuthors::CodeRepos" => 0,
+    "Acme::CPANAuthors::DebianDev" => 0,
     "Acme::CPANAuthors::DualLife" => 0,
     "Acme::CPANAuthors::GeekHouse" => 0,
     "Acme::CPANAuthors::GitHub" => 0,
@@ -46,10 +47,11 @@ my %WriteMakefileArgs = (
     "warnings" => 0
   },
   "TEST_REQUIRES" => {
+    "File::Path" => 0,
     "File::Spec" => 0,
     "Test::More" => 0
   },
-  "VERSION" => "1.002",
+  "VERSION" => "1.003",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -65,6 +67,7 @@ my %FallbackPrereqs = (
   "Acme::CPANAuthors::CPAN::OneHundred" => 0,
   "Acme::CPANAuthors::CPANTS::FiveOrMore" => 0,
   "Acme::CPANAuthors::CodeRepos" => 0,
+  "Acme::CPANAuthors::DebianDev" => 0,
   "Acme::CPANAuthors::DualLife" => 0,
   "Acme::CPANAuthors::GeekHouse" => 0,
   "Acme::CPANAuthors::GitHub" => 0,
@@ -77,6 +80,7 @@ my %FallbackPrereqs = (
   "Acme::CPANAuthors::Pumpkings" => 0,
   "Acme::CPANAuthors::ToBeLike" => 0,
   "Acme::CPANAuthors::You::re_using" => 0,
+  "File::Path" => 0,
   "File::Spec" => 0,
   "Task::CPANAuthors::Regional" => 0,
   "Test::More" => 0,

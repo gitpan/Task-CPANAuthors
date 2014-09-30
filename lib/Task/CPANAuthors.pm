@@ -1,5 +1,5 @@
 package Task::CPANAuthors;
-$Task::CPANAuthors::VERSION = '1.002';
+$Task::CPANAuthors::VERSION = '1.003';
 use strict;
 use warnings;
 
@@ -44,6 +44,8 @@ L<Acme::CPANAuthors::CPAN::OneHundred> - The CPAN Authors who have 100+ distribu
 L<Acme::CPANAuthors::CPANTS::FiveOrMore> - CPAN Authors with five or more dists
 
 L<Acme::CPANAuthors::CodeRepos> - We are CPAN authors using CodeRepos
+
+L<Acme::CPANAuthors::DebianDev> - CPAN authors who are Debian Developers
 
 L<Acme::CPANAuthors::DualLife> - We are CPAN Authors of Dual Life core modules
 
